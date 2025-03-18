@@ -23,3 +23,23 @@ body {
 #conmtain > div{
     margin: 15px;
 }
+
+#clickBut {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #d534db;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+
+#clickBut:active {
+    transform: scale(0.8);
+    background-color: #ae2cb3; 
+}
+#clickBut:hover {
+    transform: scale(0.9); 
+    background-color: #ae2cb3; 
+}
